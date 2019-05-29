@@ -20,6 +20,8 @@ to north. The smell of gold permeates the air."""),
     'treasure': Room("Treasure Chamber", """You've found the long-lost treasure
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south."""),
+
+    'boomboom_room': Room("BoomBoom Room", """You've found the long-lost boom boom room! Get the chanpagin ready the ladies are on the way.Why would you want to leave. The only exit is to the south."""),
 }
 
 
