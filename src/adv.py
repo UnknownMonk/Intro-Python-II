@@ -77,17 +77,17 @@ while True:
 
     elif direction.lower() == 'spitoon':
         print(current_player.pickup(spitoon))
-    elif direction.lower() == 'drop':
+    elif direction.lower() == 'drop spitoon':
         print(current_player.drop(spitoon))
 
     elif direction.lower() == 'oldrag':
         print(current_player.pickup(old_rag))
-    elif direction.lower() == 'drop':
+    elif direction.lower() == 'drop oldrag':
         print(current_player.drop(old_rag))
 
     elif direction.lower() == 'compass':
         print(current_player.pickup(compass))
-    elif direction.lower() == 'drop':
+    elif direction.lower() == 'drop compass':
         print(current_player.drop(compass))
 
     else:
